@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/tab_bg" 
+        android:baselineAligned="false">
+
+  
+       <TextView
+             android:id="@+id/mode1_text"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_centerVertical="true"
+             android:textSize="20sp"
+             android:text="@string/curconn"
+             android:textColor="#ffffff" />
+       <TextView
+             android:id="@+id/curmode_text"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_toRightOf="@+id/mode1_text"
+             android:layout_centerVertical="true"
+             android:layout_marginLeft="3dp"
+             android:textSize="20sp"
+             android:text="@string/unknown"
+             android:textColor="#ff0000" />
+       
+      
+       
+	 <Button
+	      	android:id="@+id/setting_btn"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+			android:layout_alignParentRight="true"
+			android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/btn_query"
+            android:onClick="onSetting"
+			android:text="@string/connect"
+            android:textColor="#ffffff"
+            android:textSize="15sp" />
+       
+    </RelativeLayout>
+    
+      <FrameLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+    </FrameLayout>
+
+</LinearLayout>

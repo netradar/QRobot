@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">QRobot编程机器人</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="mode1">触控控制</string>
+    <string name="mode2">重力控制</string>
+    <string name="mode3">轨迹控制</string>
+    <string name="curmode">机器人当前模式：</string>
+    <string name="curconn">机器人连接状态：</string>
+    <string name="setting">设置</string>
+    <string name="unknown">未连接</string>
+    <string name="connect">连接</string>
+    <string name="disconnect">断开</string>
+    <string name="connected">已连接</string>
+    <string name="irmode">红外遥控模式</string>
+    <string name="appmode">手机控制模式</string>
+    <string name="pcmode">电脑编程模式</string>
+    <string name="zhongli">切换至重力感应方式</string>
+    <string name="shoubing">切换至手柄控制方式</string>
+    <string name="speed">小车速度:</string>
+    <string name="sonarangle">超声波探头角度:</string>
+     <string name="sonardistince">前方障碍物距离:</string>
+    <string name="frontled">前大灯开关</string>
+    
+    <string name="rearled">后大灯开关</string>
+   
+    <string name="leftled">左闪灯开关</string>
+   
+    <string name="rightled">右闪灯开关</string>
+   
+    <string name="limi">厘米</string>
+    <string name="manul">触控模式</string>
+    <string name="gravity">重力模式</string>
+    <string name="avoidbarrier">避障模式</string>
+    <string name="traceline">循迹模式</string>
+    <string name="follow">跟踪模式</string>
+    <string name="push">躲避模式</string>
+    <string name="drop">悬崖急停</string>
+    <string name="vcmd">语音控制</string>
+    <string name="playmusic">播放音乐</string>
+    <string name="stopplay">停止播放</string>
+    <string name="start">启动</string>
+    <string name="stop">结束</string>
+    <string name="ball">ball</string>
+    
+    <string name="hinttouch">触控模式使用方法：\n\n点击启动按钮，手指拖动红色小球在黑色圆圈内划动。\n\n当划动到偏上半部分时，小车前进。\n当划动到偏下半部分时，小车倒退。\n当划动到偏左半部分时，小车左转。\n当划动到楄右半部分时，小车右转。\n当手指离开屏幕时，小车刹车。\n划动距离越大，小车速度越快。</string>
+    
+    <string name="hintgravity">重力感应使用方法：\n\n刹车：手机水平（屏幕向上）\n\n前进：手机向前翻转\n\n后退：手机向后翻转\n\n左转：手机向左侧翻转\n\n右转：手机向右侧翻转</string>
+    <string name="hintavoid">避障模式：\n\n\n      点击启动按钮，机器人小车将自行前进，遇到障碍物时，会自动判断和寻找合适的方向，如无路可走时，会发出报警音寻求帮助。</string>
+    <string name="hinttrace">循迹模式：\n\n\n     将小车放到黑色线路上，点击启动按钮，机器人小车会自动沿着黑色线路前进</string>
+    <string name="hintfollow">跟踪模式：\n\n\n     点击启动按钮，将手或其它障碍物靠近超声波探头，机器人小车会跟进障碍物，然后如果移动障碍物，小车会继续寻找并追踪此障碍物 </string>
+    <string name="hintpush">躲避模式：\n\n\n     点击启动按钮，将手靠近超声波控头前，机器人小车自动后退躲避 </string>
+    <string name="hintdrop">悬崖急停：\n\n\n     将小车放在桌子或台子上，点击启动按钮，机器人小车前进，在快到桌子边缘时，小车会紧急刹车避免掉落。</string>
+    <string name="hintvcmd">语音控制：\n\n\n     点击启动按钮，对着手机说语音指令来指挥小车，支持的语音指令如下：\n\n前进，后退，左转，右转，停车，前灯，后灯，左灯，右灯，加速，减速，播放音乐。 </string>
+    
+    <string name="connectFailHint">连接机器人失败，请检查Wifi网络以及机器人是否开机</string>
+    <string name="OK">确定</string>
+    <string name="Cancel">取消</string>
+    <string name="connectOK">连接机器人成功！</string>
+    <string name="connectFail">连接机器人失败！</string>
+    <string name="switchModeFailHint">当前模式正在运行，请先停止后，再切换模式~！</string>
+    <string name="connectHint">请先连接机器人~</string>
+    <string name="connecting">正在连接机器人</string>
+    
+</resources>
